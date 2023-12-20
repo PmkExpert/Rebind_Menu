@@ -1,0 +1,116 @@
+[gd_scene load_steps=2 format=3 uid="uid://bu1r5yuqfrr4d"]
+
+[ext_resource type="Script" path="res://keybindings.gd" id="1_5wvuv"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5wvuv")
+
+[node name="SetA" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 352.0
+offset_top = 32.0
+offset_right = 800.0
+offset_bottom = 288.0
+
+[node name="a_up" type="Button" parent="SetA"]
+layout_mode = 0
+offset_right = 192.0
+offset_bottom = 64.0
+text = "a_up
+"
+
+[node name="input" type="Label" parent="SetA/a_up"]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 448.0
+offset_bottom = 64.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="a_down" type="Button" parent="SetA"]
+layout_mode = 0
+offset_top = 96.0
+offset_right = 192.0
+offset_bottom = 160.0
+text = "a_down"
+
+[node name="input" type="Label" parent="SetA/a_down"]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 448.0
+offset_bottom = 64.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="a_interact" type="Button" parent="SetA"]
+layout_mode = 0
+offset_top = 192.0
+offset_right = 192.0
+offset_bottom = 256.0
+text = "a_interact
+"
+
+[node name="input" type="Label" parent="SetA/a_interact"]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 448.0
+offset_bottom = 64.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SetB" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 352.0
+offset_top = 352.0
+offset_right = 800.0
+offset_bottom = 608.0
+
+[node name="b_up" type="Button" parent="SetB"]
+layout_mode = 0
+offset_right = 192.0
+offset_bottom = 64.0
+text = "b_up"
+
+[node name="input" type="Label" parent="SetB/b_up"]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 448.0
+offset_bottom = 64.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="b_down" type="Button" parent="SetB"]
+layout_mode = 0
+offset_top = 96.0
+offset_right = 192.0
+offset_bottom = 160.0
+text = "b_down"
+
+[node name="input" type="Label" parent="SetB/b_down"]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 448.0
+offset_bottom = 64.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="b_accept" type="Button" parent="SetB"]
+layout_mode = 0
+offset_top = 192.0
+offset_right = 192.0
+offset_bottom = 256.0
+text = "b_accept"
+
+[node name="input" type="Label" parent="SetB/b_accept"]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 448.0
+offset_bottom = 64.0
+horizontal_alignment = 1
+vertical_alignment = 1
